@@ -142,6 +142,25 @@ class ArtDepartment(db.Model):  # New model for Art Department
     )
 
 
+class AssistantDirectorsDepartment(
+    db.Model
+):  # New model for Assistant Directors Department
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    first_assistant_directors = db.relationship(
+        "FirstAssistantDirector", backref="department"
+    )
+    second_assistant_directors = db.relationship(
+        "SecondAssistantDirector", backref="department"
+    )
+    second_second_assistants = db.relationship(
+        "SecondSecondAssistantDirector", backref="department"
+    )
+    set_personal_assistants = db.relationship(
+        "SetPersonalAssistant", backref="department"
+    )
+
+
 class Location(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
