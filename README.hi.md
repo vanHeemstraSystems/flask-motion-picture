@@ -1,8 +1,8 @@
-repository-name
+भंडार-नाम
 
 # भंडार का नाम
 
-> A Python Flask application of a Motion Picture production
+> मोशन पिक्चर उत्पादन का एक पायथन फ्लास्क अनुप्रयोग
 
 ## 100 - परिचय
 
@@ -12,7 +12,7 @@ repository-name
 
 देखना[README.md](./200/README.md)
 
-## 300 - हमारे एप्लिकेशन का निर्माण
+## 300 - Building Our Application
 
 देखना[README.md](./300/README.md)
 
