@@ -2,7 +2,7 @@ Repository-Name
 
 # Repository-Name
 
-> Eine Python-Flask-Anwendung einer Filmproduktion
+> Eine Python Flask-Anwendung einer Filmproduktion
 
 ## 100 - Einführung
 
