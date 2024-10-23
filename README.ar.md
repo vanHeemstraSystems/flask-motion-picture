@@ -1,6 +1,6 @@
 اسم المستودع
 
-# اسم المستودع
+# Repository Name
 
 استنادا إلى "ABC" في<https://www.abc.com/>
 
