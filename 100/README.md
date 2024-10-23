@@ -40,12 +40,12 @@ Make sure you have Python 3.x and pip installed on your machine. You will also n
 
    - On Windows:
      ```bash
-     venv\Scripts\activate
+     .venv\Scripts\activate
      ```
 
    - On macOS/Linux:
      ```bash
-     source venv/bin/activate
+     source .venv/bin/activate
      ```
 
 4. **Install the required packages:**
