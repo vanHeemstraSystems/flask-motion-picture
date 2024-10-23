@@ -201,3 +201,15 @@ class CGIPullRequest(db.Model):
     status = db.Column(
         db.String(20), nullable=False
     )  # e.g., "Pending", "Approved", "Rejected"
+
+
+class AboveTheLineCrew(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    role = db.Column(db.String(100), nullable=False)  # Role description
+    director_id = db.Column(db.Integer, db.ForeignKey("director.id"))
+    producer_id = db.Column(db.Integer, db.ForeignKey("producer.id"))
+    executive_producer_id = db.Column(
+        db.Integer, db.ForeignKey("executive_producer.id")
+    )
+    casting_director_id = db.Column(db.Integer, db.ForeignKey("casting_director.id"))
