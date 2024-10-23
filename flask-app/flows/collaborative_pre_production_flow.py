@@ -1,5 +1,5 @@
 from prefect import flow, task
-from models import Director, Producer, Actor, Location, Storyboarder, Scene, CastingDirector, PrincipalCast, PropMaster, ArtPersonalAssistant, ArtDepartment
+from models import Director, Producer, Actor, Location, Storyboarder, Scene, CastingDirector, PrincipalCast, PropMaster
 
 @task
 def casting(casting_director: CastingDirector, principal_cast: PrincipalCast, actors: list):
@@ -33,4 +33,3 @@ def collaborative_pre_production_flow(director: Director, producer: Producer, ca
     location_scouting(director, producer, locations)
     storyboarding(storyboarder, scenes)
     arrange_art(art_personal_assistant, scenes)
-
