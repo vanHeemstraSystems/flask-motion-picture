@@ -47,17 +47,9 @@ class SecondSecondAssistantDirector(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
 
-class SetPersonalAssistant(db.Model):  # New model for Set Personal Assistant
+class SetPersonalAssistant(db.Model):  
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
-
-class AssistantDirectorsDepartment(db.Model):  # New model for Assistant Directors Department
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100), nullable=False)
-    first_assistant_directors = db.relationship('FirstAssistantDirector', backref='department')
-    second_assistant_directors = db.relationship('SecondAssistantDirector', backref='department')
-    second_second_assistants = db.relationship('SecondSecondAssistantDirector', backref='department')
-    set_personal_assistants = db.relationship('SetPersonalAssistant', backref='department')
 
 class Gaffer(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -89,6 +81,29 @@ class SoundDesigner(db.Model):
 class Animator(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
+
+class SetDresser(db.Model):  # New model for Set Dresser
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+
+class PropMaster(db.Model):  # New model for Prop Master
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    experience_years = db.Column(db.Integer, nullable=False)
+
+class ArtPersonalAssistant(db.Model):  # New model for Art Personal Assistant
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    experience_years = db.Column(db.Integer, nullable=False)
+
+class ArtDepartment(db.Model):  # New model for Art Department
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    production_designers = db.relationship('ProductionDesigner', backref='art_department')
+    art_directors = db.relationship('ArtDirector', backref='art_department')
+    set_dressers = db.relationship('SetDresser', backref='art_department')
+    prop_masters = db.relationship('PropMaster', backref='art_department')
+    art_personal_assistants = db.relationship('ArtPersonalAssistant', backref='art_department')
 
 class Location(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -136,3 +151,4 @@ class CGIPullRequest(db.Model):
     branch_id = db.Column(db.Integer, db.ForeignKey('cgi_animation_branch.id'))
     reviewer_id = db.Column(db.Integer, db.ForeignKey('animator.id'))
     status = db.Column(db.String(20), nullable=False)  # e.g., "Pending", "Approved", "Rejected"
+
