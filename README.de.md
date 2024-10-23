@@ -2,13 +2,13 @@ Repository-Name
 
 # Repository-Name
 
-> Eine Python-Flask-Anwendung einer Filmproduktion
+> A Python Flask application of a Motion Picture production
 
 ## 100 - Einführung
 
-Sehen[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
-## 200 – Anforderungen
+## 200 - Requirements
 
 Sehen[README.md](./200/README.md)
 
@@ -16,6 +16,6 @@ Sehen[README.md](./200/README.md)
 
 Sehen[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 – Fazit
 
 Sehen[README.md](./400/README.md)
