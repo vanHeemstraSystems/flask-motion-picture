@@ -60,7 +60,7 @@ def run_flows():
     # casting_director = CastingDirector(name="Emily Davis")  # Example casting director
     # principal_cast = PrincipalCast(name="Main Cast")  # Example principal cast
     # art_personal_assistant = ArtPersonalAssistant(name="Chris Blue", experience_years=3)  # Example Art Personal Assistant
-    art_department = ArtDepartment(name="Art Department")  # New Art Department
+    art_department = ArtDepartment(name="Art Department")
     production_designer = ProductionDesigner(
         name="Tom Hanks",
         experience_years=20,
