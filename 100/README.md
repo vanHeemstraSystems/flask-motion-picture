@@ -141,6 +141,19 @@ Check out the dashboard at http://127.0.0.1:4200
 
 It spins up a nice UI that we’re ready to use and monitor everything that we would build now.
 
+
+**TIP**: When running a flow locks up the database and fails all the tasks. This is because you are using the SQLite backend with an ephemeral API. When using the ephemeral API, each task run starts its own copy of the API server in-memory. Each of these API servers creates a connection to the database. When you run many tasks concurrently, you have many connections to the SQLite database which does not perform well with concurrent writes.
+
+Instead, you should start a standalone API server (with ```prefect orion start```) then set ```PREFECT_API_URL``` so your flow and task runs connect to it. Then, the single instance of the API will manage communication with the database reducing strain during concurrent runs. I'd also recommend switching to using PostgreSQL for the backing database instead, as it'll perform much better at scale.
+
+So instead we will run:
+
+```
+$ prefect orion start
+```
+
+
+
 MORE
 
 ## Contributing
