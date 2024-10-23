@@ -2,7 +2,7 @@ nom du référentiel
 
 # Nom du référentiel
 
-Based on "ABC" at <https://www.abc.com/>
+Basé sur "ABC" à<https://www.abc.com/>
 
 ## 100 - Introduction
 
