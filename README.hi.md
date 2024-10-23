@@ -4,7 +4,7 @@
 
 "एबीसी" पर आधारित<https://www.abc.com/>
 
-## 100 - Introduction
+## 100 - परिचय
 
 देखना[README.md](./100/README.md)
 
