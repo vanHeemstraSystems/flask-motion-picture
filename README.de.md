@@ -1,6 +1,6 @@
 Repository-Name
 
-# Repository Name
+# Repository-Name
 
 Basierend auf „ABC“ unter<https://www.abc.com/>
 
