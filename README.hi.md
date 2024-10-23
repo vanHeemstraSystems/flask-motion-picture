@@ -1,12 +1,12 @@
-repository-name
+भंडार-नाम
 
-# भंडार का नाम
+# Repository Name
 
-> मोशन पिक्चर प्रोडक्शन का पायथन फ्लास्क एप्लिकेशन
+> मोशन पिक्चर उत्पादन का एक पायथन फ्लास्क अनुप्रयोग
 
 ## 100 - परिचय
 
-देखना[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - आवश्यकताएँ
 
@@ -14,8 +14,8 @@ repository-name
 
 ## 300 - हमारे एप्लिकेशन का निर्माण
 
-देखना[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - निष्कर्ष
 
 देखना[README.md](./400/README.md)
