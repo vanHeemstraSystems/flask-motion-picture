@@ -1,4 +1,5 @@
 from flask import Flask
+
 # from flows import (
 #     iterative_cgi_flow,
 #     iterative_sound_design_flow,
@@ -9,14 +10,45 @@ from flask import Flask
 #     distribution_flow,
 #     screening_flow,
 # )
-# from models import Writer, Director, Producer, Actor, Cinematographer, Editor, SoundDesigner, Animator, Location, Scene, Storyboarder, FirstAssistantDirector, SecondAssistantDirector, SecondSecondAssistantDirector, Gaffer, ExecutiveProducer, CastingDirector, PrincipalCast, AboveTheLineCrew, AssistantDirectorsDepartment, SetDresser, PropMaster, ArtPersonalAssistant, ArtDepartment
+from models import (
+    Writer,
+    Director,
+    Producer,
+    Actor,
+    Cinematographer,
+    Editor,
+    SoundDesigner,
+    Animator,
+    Location,
+    Scene,
+    Storyboarder,
+    FirstAssistantDirector,
+    SecondAssistantDirector,
+    SecondSecondAssistantDirector,
+    Gaffer,
+    ExecutiveProducer,
+    CastingDirector,
+    PrincipalCast,
+    AboveTheLineCrew,
+    AssistantDirectorsDepartment,
+    SetDresser,
+    PropMaster,
+    ArtPersonalAssistant,
+    ArtDepartment,
+)
 
 app = Flask(__name__)
 
-@app.route('/run_flows', methods=['POST'])
+
+@app.route("/")
+def main():
+    return "Main Page"
+
+
+@app.route("/run_flows", methods=["GET", "POST"])  # Should be POST only
 def run_flows():
-    # # Create participant instances using actual names
-    # writer = Writer(name="Truman Capote", experience_years=10)
+    # Create participant instances using actual names
+    writer = Writer(name="Truman Capote", experience_years=10)
     # sound_designer = SoundDesigner(name="Morris D. Duss", projects_completed=30)
     # reviewer_sound = SoundDesigner(name="John Smith", projects_completed=10)  # Example reviewer for sound
     # animator = Animator(name="Alice Johnson")  # Example animator
@@ -69,5 +101,6 @@ def run_flows():
 
     return "Flows executed successfully!"
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     app.run(debug=True)
