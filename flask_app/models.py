@@ -143,6 +143,18 @@ class ArtDepartment(db.Model):
 class AssistantDirectorsDepartment(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
+    first_assistant_directors_id = db.Column(
+        db.Integer, db.ForeignKey("first_assistant_director.id"), nullable=False
+    )  # Foreign Key to FirstAssistantDirector
+    second_assistant_directors_id = db.Column(
+        db.Integer, db.ForeignKey("second_assistant_director.id"), nullable=False
+    )  # Foreign Key to SecondAssistantDirector
+    second_second_assistant_directors_id = db.Column(
+        db.Integer, db.ForeignKey("second_second_assistant_director.id"), nullable=False
+    )  # Foreign Key to SecondSecondAssistantDirector
+    set_personal_assistants_id = db.Column(
+        db.Integer, db.ForeignKey("set_personal_assistant.id"), nullable=False
+    )  # Foreign Key to SetPersonalAssistant
     first_assistant_directors = db.relationship(
         "FirstAssistantDirector", backref="department"
     )
