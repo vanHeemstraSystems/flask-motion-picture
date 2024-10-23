@@ -1,12 +1,12 @@
 اسم المستودع
 
-# اسم المستودع
+# Repository Name
 
-Based on "ABC" at <https://www.abc.com/>
+استنادا إلى "ABC" في<https://www.abc.com/>
 
 ## 100- مقدمة
 
-يرى[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - المتطلبات
 
@@ -14,8 +14,8 @@ Based on "ABC" at <https://www.abc.com/>
 
 ## 300 – بناء تطبيقنا
 
-See [README.md](./300/README.md)
+يرى[README.md](./300/README.md)
 
 ## 400 - الخاتمة
 
-See [README.md](./400/README.md)
+يرى[README.md](./400/README.md)
