@@ -1,6 +1,6 @@
-repository-name
+اسم المستودع
 
-# Repository Name
+# اسم المستودع
 
 استنادا إلى "ABC" في<https://www.abc.com/>
 
@@ -14,8 +14,8 @@ repository-name
 
 ## 300 – بناء تطبيقنا
 
-See [README.md](./300/README.md)
+يرى[README.md](./300/README.md)
 
-## 400 - Conclusion
+## 400 - الخاتمة
 
 يرى[README.md](./400/README.md)
