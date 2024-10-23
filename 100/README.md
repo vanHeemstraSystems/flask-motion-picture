@@ -61,7 +61,7 @@ Make sure you have Python 3.x and pip installed on your machine. You will also n
    ```plaintext
    SECRET_KEY='your_secret_key_here'
    DATABASE_URL='postgresql://username:password@localhost:5432/yourdatabase'
-   FLASK_ENV='development'  # Set to 'production' for production environment
+   FLASK_DEBUG=True  # Set to 'False' for production environment
    ```
 
    **WARNING**: For a more secure solution use ```exports``` of variables which then get read into the application instead of storing them in files.
