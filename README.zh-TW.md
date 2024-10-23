@@ -1,4 +1,4 @@
-儲存庫名稱
+repository-name
 
 # 儲存庫名稱
 
