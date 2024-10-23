@@ -2,7 +2,7 @@
 
 # 儲存庫名稱
 
-> 電影製作的 Python Flask 應用程式
+> A Python Flask application of a Motion Picture production
 
 ## 100 - 簡介
 
