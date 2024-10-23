@@ -2,7 +2,7 @@
 
 # 存储库名称
 
-> 电影制作的 Python Flask 应用程序
+> A Python Flask application of a Motion Picture production
 
 ## 100 - 简介
 
