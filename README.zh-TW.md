@@ -2,11 +2,11 @@
 
 # 儲存庫名稱
 
-基於“ABC”<https://www.abc.com/>
+Based on "ABC" at <https://www.abc.com/>
 
 ## 100 - 簡介
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - 要求
 
@@ -18,4 +18,4 @@
 
 ## 400 - 結論
 
-看[README.md](./400/README.md)
+See [README.md](./400/README.md)
