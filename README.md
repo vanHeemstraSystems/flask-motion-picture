@@ -1,7 +1,7 @@
 repository-name
 # Repository Name
 
-Based on "ABC" at https://www.abc.com/
+> A Python Flask application of a Motion Picture production
 
 ## 100 - Introduction
 
