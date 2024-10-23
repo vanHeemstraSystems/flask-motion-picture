@@ -8,9 +8,9 @@ Basierend auf „ABC“ unter<https://www.abc.com/>
 
 Sehen[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 – Anforderungen
 
-See [README.md](./200/README.md)
+Sehen[README.md](./200/README.md)
 
 ## 300 – Erstellen unserer Anwendung
 
