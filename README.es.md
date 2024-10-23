@@ -1,16 +1,16 @@
-repository-name
+nombre-repositorio
 
 # Nombre del repositorio
 
-> Una aplicación Python Flask de una producción cinematográfica
+> A Python Flask application of a Motion Picture production
 
 ## 100 - Introducción
 
 Ver[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - Requisitos
 
-See [README.md](./200/README.md)
+Ver[README.md](./200/README.md)
 
 ## 300 - Construyendo nuestra aplicación
 
