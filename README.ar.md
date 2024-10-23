@@ -4,7 +4,7 @@
 
 استنادا إلى "ABC" في<https://www.abc.com/>
 
-## 100 - Introduction
+## 100- مقدمة
 
 يرى[README.md](./100/README.md)
 
