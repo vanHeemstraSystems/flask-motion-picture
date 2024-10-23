@@ -114,6 +114,35 @@ Make sure you have Python 3.x and pip installed on your machine. You will also n
 
    Open your web browser and go to `http://127.0.0.1:5000/` to access the application.
 
+## Running Prefect
+
+You can run a command to start prefect locally:
+
+```
+$ prefect server start
+```
+
+You will be prompted as follows:
+
+```
+ ___ ___ ___ ___ ___ ___ _____ 
+| _ \ _ \ __| __| __/ __|_   _| 
+|  _/   / _|| _|| _| (__  | |  
+|_| |_|_\___|_| |___\___| |_|  
+
+Configure Prefect to communicate with the server with:
+
+    prefect config set PREFECT_API_URL=http://127.0.0.1:4200/api
+
+View the API reference documentation at http://127.0.0.1:4200/docs
+
+Check out the dashboard at http://127.0.0.1:4200
+```
+
+It spins up a nice UI that we’re ready to use and monitor everything that we would build now.
+
+MORE
+
 ## Contributing
 
 Feel free to contribute to this project! Please open issues for any bugs or feature requests.
