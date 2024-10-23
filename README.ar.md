@@ -2,20 +2,20 @@
 
 # اسم المستودع
 
-> A Python Flask application of a Motion Picture production
+> تطبيق Python Flask لإنتاج الصور المتحركة
 
-## 100 - Introduction
+## 100- مقدمة
 
 يرى[README.md](./100/README.md)
 
 ## 200 - المتطلبات
 
-يرى[README.md](./200/README.md)
+See [README.md](./200/README.md)
 
 ## 300 – بناء تطبيقنا
 
-See [README.md](./300/README.md)
+يرى[README.md](./300/README.md)
 
-## 400 - الخاتمة
+## 400 - Conclusion
 
 يرى[README.md](./400/README.md)
