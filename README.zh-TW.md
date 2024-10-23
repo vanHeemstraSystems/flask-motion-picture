@@ -2,7 +2,7 @@
 
 # 儲存庫名稱
 
-> A Python Flask application of a Motion Picture production
+> 電影製作的 Python Flask 應用程式
 
 ## 100 - 簡介
 
@@ -18,4 +18,4 @@
 
 ## 400 - 結論
 
-See [README.md](./400/README.md)
+看[README.md](./400/README.md)
