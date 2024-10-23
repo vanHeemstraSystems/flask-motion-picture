@@ -103,20 +103,20 @@ def run_flows():
     editor = Editor(name="Samuel E. Beetley", software_proficient="Film Editing")
 
     # Create location instances
-    # locations = [
-    #     Location(name="Tiffany & Co.", description="Iconic jewelry store on Fifth Avenue."),
-    #     Location(name="Upper East Side Apartment", description="Holly Golightly's apartment."),
-    #     Location(name="Central Park", description="Various scenes filmed in this famous park."),
-    #     Location(name="The 21 Club", description="A famous restaurant where key scenes take place."),
-    # ]
+    locations = [
+        Location(name="Tiffany & Co.", description="Iconic jewelry store on Fifth Avenue."),
+        Location(name="Upper East Side Apartment", description="Holly Golightly's apartment."),
+        Location(name="Central Park", description="Various scenes filmed in this famous park."),
+        Location(name="The 21 Club", description="A famous restaurant where key scenes take place."),
+    ]
 
     # Create scene instances
-    # scenes = [
-    #     Scene(description="Holly arrives at Tiffany's", location=locations[0], time_of_day="DAY", scene_type="EXT", scene_number=1, has_cgi=True),
-    #     Scene(description="Holly's apartment", location=locations[1], time_of_day="NIGHT", scene_type="INT", scene_number=2, has_cgi=False),
-    #     Scene(description="Central Park meeting", location=locations[2], time_of_day="DAY", scene_type="EXT", scene_number=3, has_cgi=True),
-    #     Scene(description="Dinner at The 21 Club", location=locations[3], time_of_day="NIGHT", scene_type="INT", scene_number=4, has_cgi=False),
-    # ]
+    scenes = [
+        Scene(description="Holly arrives at Tiffany's", location_id=locations[0].id, time_of_day="DAY", scene_type="EXT", scene_number=1, has_cgi=True),
+        Scene(description="Holly's apartment", location_id=locations[1].id, time_of_day="NIGHT", scene_type="INT", scene_number=2, has_cgi=False),
+        Scene(description="Central Park meeting", location_id=locations[2].id, time_of_day="DAY", scene_type="EXT", scene_number=3, has_cgi=True),
+        Scene(description="Dinner at The 21 Club", location_id=locations[3].id, time_of_day="NIGHT", scene_type="INT", scene_number=4, has_cgi=False),
+    ]
 
     # Trigger each flow
     # iterative_cgi_flow(animator, reviewer_cgi, "Initial CGI Design", "Added new visual effects.")
