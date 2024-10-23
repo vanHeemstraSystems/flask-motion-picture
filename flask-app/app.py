@@ -9,7 +9,7 @@ from flows import (
     distribution_flow,
     screening_flow,
 )
-from models import Writer, Director, Producer, Actor, Cinematographer, Editor, SoundDesigner, Animator, Location, Scene, Storyboarder, FirstAssistantDirector, SecondAssistantDirector, SecondSecondAssistantDirector, Gaffer, ExecutiveProducer, CastingDirector, PrincipalCast, AboveTheLineCrew, AssistantDirectorsDepartment
+from models import Writer, Director, Producer, Actor, Cinematographer, Editor, SoundDesigner, Animator, Location, Scene, Storyboarder, FirstAssistantDirector, SecondAssistantDirector, SecondSecondAssistantDirector, Gaffer, ExecutiveProducer, CastingDirector, PrincipalCast, AboveTheLineCrew, AssistantDirectorsDepartment, SetDresser, PropMaster, ArtPersonalAssistant, ArtDepartment
 
 app = Flask(__name__)
 
@@ -26,13 +26,12 @@ def run_flows():
     executive_producer = ExecutiveProducer(name="Sarah Connor", experience_years=15, role_description="Oversees production and funding.")
     casting_director = CastingDirector(name="Emily Davis")  # Example casting director
     principal_cast = PrincipalCast(name="Main Cast")  # Example principal cast
-    above_the_line_crew = AboveTheLineCrew(name="Above the Line Crew", role="Key decision makers")  # Example crew
-    ad_department = AssistantDirectorsDepartment(name="Assistant Directors Department")  # New department
+    art_personal_assistant = ArtPersonalAssistant(name="Chris Blue", experience_years=3)  # Example Art Personal Assistant
+    art_department = ArtDepartment(name="Art Department")  # New Art Department
     storyboarder = Storyboarder(name="John Doe")  # Example storyboarder
-    first_ad = FirstAssistantDirector(name="Tom Brown", experience_years=5)  # Example 1st Assistant Director
+    ad = FirstAssistantDirector(name="Tom Brown", experience_years=5)  # Example 1st Assistant Director
     second_ad = SecondAssistantDirector(name="Lisa White", experience_years=3)  # Example 2nd Assistant Director
     second_second_ad = SecondSecondAssistantDirector(name="Mike Green", experience_years=2)  # Example 2nd 2nd Assistant Director
-    set_pa = SetPersonalAssistant(name="Chris Blue")  # Example Set Personal Assistant
     gaffer = Gaffer(name="Mark Lee")  # Example gaffer
     crew = ["Cinematographer", "Sound Designer", "Production Assistant"]
     actors = [
@@ -61,8 +60,8 @@ def run_flows():
     # Trigger each flow
     iterative_cgi_flow(animator, reviewer_cgi, "Initial CGI Design", "Added new visual effects.")
     iterative_sound_design_flow(sound_designer, reviewer_sound, "Initial Sound Design", "Added new sound effects and ambiance.")
-    collaborative_pre_production_flow(director, producer, casting_director, principal_cast, ad_department, actors, locations, storyboarder, scenes)
-    iterative_production_flow(director, cinematographer, gaffer, scenes, actors, ad_department, crew)
+    collaborative_pre_production_flow(director, producer, casting_director, principal_cast, art_personal_assistant, actors, locations, storyboarder, scenes)
+    iterative_production_flow(director, cinematographer, gaffer, scenes, actors, ad, crew)
     feedback_post_production_flow(editor, director, scenes)
     marketing_flow(producer, director, actors)
     distribution_flow(producer)
