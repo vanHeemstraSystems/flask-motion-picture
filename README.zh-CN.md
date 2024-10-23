@@ -2,11 +2,11 @@
 
 # 存储库名称
 
-> 电影制作的 Python Flask 应用程序
+> A Python Flask application of a Motion Picture production
 
 ## 100 - 简介
 
-看[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - 要求
 
