@@ -1,12 +1,12 @@
-repository-name
+nombre-repositorio
 
 # Nombre del repositorio
 
-Basado en "ABC" en<https://www.abc.com/>
+> Una aplicación Python Flask de una producción cinematográfica
 
 ## 100 - Introducción
 
-See [README.md](./100/README.md)
+Ver[README.md](./100/README.md)
 
 ## 200 - Requisitos
 
