@@ -1,6 +1,6 @@
 اسم المستودع
 
-# اسم المستودع
+# Repository Name
 
 > تطبيق Python Flask لإنتاج الصور المتحركة
 
@@ -10,7 +10,7 @@
 
 ## 200 - المتطلبات
 
-See [README.md](./200/README.md)
+يرى[README.md](./200/README.md)
 
 ## 300 – بناء تطبيقنا
 
