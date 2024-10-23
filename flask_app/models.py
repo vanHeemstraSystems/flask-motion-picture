@@ -111,24 +111,7 @@ class Animator(db.Model):
     name = db.Column(db.String(100), nullable=False)
 
 
-class SetDresser(db.Model):  # New model for Set Dresser
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100), nullable=False)
-
-
-class PropMaster(db.Model):  # New model for Prop Master
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100), nullable=False)
-    experience_years = db.Column(db.Integer, nullable=False)
-
-
-class ArtPersonalAssistant(db.Model):  # New model for Art Personal Assistant
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100), nullable=False)
-    experience_years = db.Column(db.Integer, nullable=False)
-
-
-class ArtDepartment(db.Model):  # New model for Art Department
+class ArtDepartment(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
     production_designers_id = db.Column(
@@ -157,9 +140,7 @@ class ArtDepartment(db.Model):  # New model for Art Department
     )
 
 
-class AssistantDirectorsDepartment(
-    db.Model
-):  # New model for Assistant Directors Department
+class AssistantDirectorsDepartment(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
     first_assistant_directors = db.relationship(
@@ -256,3 +237,26 @@ class ProductionDesigner(db.Model):
     design_philosophy = db.Column(
         db.Text, nullable=True
     )  # Description of the designer's approach to art direction
+
+
+class ArtDirector(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    experience_years = db.Column(db.Integer, nullable=False)
+
+
+class SetDresser(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+
+
+class PropMaster(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    experience_years = db.Column(db.Integer, nullable=False)
+
+
+class ArtPersonalAssistant(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    experience_years = db.Column(db.Integer, nullable=False)

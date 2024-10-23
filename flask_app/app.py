@@ -36,6 +36,7 @@ from models import (
     ArtPersonalAssistant,
     ArtDepartment,
     ProductionDesigner,
+    ArtDirector,
 )
 
 app = Flask(__name__)
@@ -59,13 +60,18 @@ def run_flows():
     # executive_producer = ExecutiveProducer(name="Sarah Connor", experience_years=15, role_description="Oversees production and funding.")
     # casting_director = CastingDirector(name="Emily Davis")  # Example casting director
     # principal_cast = PrincipalCast(name="Main Cast")  # Example principal cast
-    # art_personal_assistant = ArtPersonalAssistant(name="Chris Blue", experience_years=3)  # Example Art Personal Assistant
+    art_personal_assistant = ArtPersonalAssistant(
+        name="Chris Blue", experience_years=3
+    )  # Example Art Personal Assistant
     art_department = ArtDepartment(name="Art Department")
     production_designer = ProductionDesigner(
         name="Tom Hanks",
         experience_years=20,
         design_philosophy="Create immersive environments that enhance storytelling.",
     )  # Example Production Designer
+    art_director = ArtDirector(
+        name="Jane Doe", experience_years=15
+    )  # Example Art Director
     # storyboarder = Storyboarder(name="John Doe")  # Example storyboarder
     # ad = FirstAssistantDirector(name="Tom Brown", experience_years=5)  # Example 1st Assistant Director
     # second_ad = SecondAssistantDirector(name="Lisa White", experience_years=3)  # Example 2nd Assistant Director
