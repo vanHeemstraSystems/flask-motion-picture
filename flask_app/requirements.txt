@@ -1,6 +1,6 @@
 black==24.10.0
 Flask==2.2.3
 Flask-SQLAlchemy==3.0.2
-Prefect==2.0.0
+Prefect==2.20.10
 python-dotenv==0.20.0
 Werkzeug>=2.2,<3.0
