@@ -2,7 +2,7 @@
 
 # 存储库名称
 
-Based on "ABC" at <https://www.abc.com/>
+> 电影制作的 Python Flask 应用程序
 
 ## 100 - 简介
 

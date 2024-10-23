@@ -2,9 +2,9 @@
 
 # اسم المستودع
 
-استنادا إلى "ABC" في<https://www.abc.com/>
+> تطبيق Python Flask لإنتاج الصور المتحركة
 
-## 100- مقدمة
+## 100 - Introduction
 
 يرى[README.md](./100/README.md)
 

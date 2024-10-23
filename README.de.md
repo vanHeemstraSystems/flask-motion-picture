@@ -2,7 +2,7 @@ Repository-Name
 
 # Repository-Name
 
-Basierend auf „ABC“ unter<https://www.abc.com/>
+> Eine Python-Flask-Anwendung einer Filmproduktion
 
 ## 100 - Einführung
 
@@ -10,7 +10,7 @@ Sehen[README.md](./100/README.md)
 
 ## 200 – Anforderungen
 
-See [README.md](./200/README.md)
+Sehen[README.md](./200/README.md)
 
 ## 300 – Erstellen unserer Anwendung
 

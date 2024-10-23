@@ -2,7 +2,7 @@ repositorynaam
 
 # Naam van opslagplaats
 
-Gebaseerd op "ABC" op<https://www.abc.com/>
+> A Python Flask application of a Motion Picture production
 
 ## 100 - Inleiding
 

@@ -1,8 +1,8 @@
 nom du référentiel
 
-# Repository Name
+# Nom du référentiel
 
-Basé sur "ABC" à<https://www.abc.com/>
+> Une application Python Flask d'une production cinématographique
 
 ## 100 - Introduction
 
@@ -12,9 +12,9 @@ Voir[README.md](./100/README.md)
 
 Voir[README.md](./200/README.md)
 
-## 300 - Construire notre application
+## 300 - Créer notre application
 
-Voir[README.md](./300/README.md)
+See [README.md](./300/README.md)
 
 ## 400 - Conclusion
 
