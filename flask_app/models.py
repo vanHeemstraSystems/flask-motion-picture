@@ -232,3 +232,12 @@ class AboveTheLineCrew(db.Model):
         db.Integer, db.ForeignKey("executive_producer.id")
     )
     casting_director_id = db.Column(db.Integer, db.ForeignKey("casting_director.id"))
+
+
+class ProductionDesigner(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    experience_years = db.Column(db.Integer, nullable=False)
+    design_philosophy = db.Column(
+        db.Text, nullable=True
+    )  # Description of the designer's approach to art direction
