@@ -4,4 +4,3 @@ Flask-SQLAlchemy==3.0.2
 Prefect==2.20.10
 python-dotenv==0.20.0
 Werkzeug>=2.2,<3.0
-foo=
