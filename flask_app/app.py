@@ -1,7 +1,7 @@
 from flask import Flask
 
-from flows import (
-    iterative_cgi_flow,
+# from flows import (
+#    iterative_cgi_flow,
 #     iterative_sound_design_flow,
 #     collaborative_pre_production_flow,
 #     iterative_production_flow,
@@ -9,7 +9,7 @@ from flows import (
 #     marketing_flow,
 #     distribution_flow,
 #     screening_flow,
-)
+# )
 from models import (
     Writer,
     Director,
@@ -119,7 +119,7 @@ def run_flows():
     ]
 
     # Trigger each flow
-    iterative_cgi_flow(animator, reviewer_cgi, "Initial CGI Design", "Added new visual effects.")
+    # iterative_cgi_flow(animator, reviewer_cgi, "Initial CGI Design", "Added new visual effects.")
     # iterative_sound_design_flow(sound_designer, reviewer_sound, "Initial Sound Design", "Added new sound effects and ambiance.")
     # collaborative_pre_production_flow(director, producer, casting_director, principal_cast, art_personal_assistant, actors, locations, storyboarder, scenes)
     # iterative_production_flow(director, cinematographer, gaffer, scenes, actors, ad, crew)
