@@ -51,15 +51,26 @@ def main():
 def run_flows():
     # Create participant instances using actual names
     writer = Writer(name="Truman Capote", experience_years=10)
-    # sound_designer = SoundDesigner(name="Morris D. Duss", projects_completed=30)
-    # reviewer_sound = SoundDesigner(name="John Smith", projects_completed=10)  # Example reviewer for sound
-    # animator = Animator(name="Alice Johnson")  # Example animator
-    # reviewer_cgi = Animator(name="Bob Brown")  # Example reviewer for CGI
-    # director = Director(name="Blake Edwards", awards_won=2)
-    # producer = Producer(name="Richard Shepherd", projects_managed=5, funding_secured=500000, project_guidelines="Ensure high-quality production.")
-    # executive_producer = ExecutiveProducer(name="Sarah Connor", experience_years=15, role_description="Oversees production and funding.")
-    # casting_director = CastingDirector(name="Emily Davis")  # Example casting director
-    # principal_cast = PrincipalCast(name="Main Cast")  # Example principal cast
+    sound_designer = SoundDesigner(name="Morris D. Duss", projects_completed=30)
+    reviewer_sound = SoundDesigner(
+        name="John Smith", projects_completed=10
+    )  # Example reviewer for sound
+    animator = Animator(name="Alice Johnson")  # Example animator
+    reviewer_cgi = Animator(name="Bob Brown")  # Example reviewer for CGI
+    director = Director(name="Blake Edwards", awards_won=2)
+    producer = Producer(
+        name="Richard Shepherd",
+        projects_managed=5,
+        funding_secured=500000,
+        project_guidelines="Ensure high-quality production.",
+    )
+    executive_producer = ExecutiveProducer(
+        name="Sarah Connor",
+        experience_years=15,
+        role_description="Oversees production and funding.",
+    )
+    casting_director = CastingDirector(name="Emily Davis")  # Example casting director
+    principal_cast = PrincipalCast(name="Main Cast")  # Example principal cast
     art_personal_assistant = ArtPersonalAssistant(
         name="Chris Blue", experience_years=3
     )  # Example Art Personal Assistant
@@ -72,18 +83,24 @@ def run_flows():
     art_director = ArtDirector(
         name="Jane Doe", experience_years=15
     )  # Example Art Director
-    # storyboarder = Storyboarder(name="John Doe")  # Example storyboarder
-    # ad = FirstAssistantDirector(name="Tom Brown", experience_years=5)  # Example 1st Assistant Director
-    # second_ad = SecondAssistantDirector(name="Lisa White", experience_years=3)  # Example 2nd Assistant Director
-    # second_second_ad = SecondSecondAssistantDirector(name="Mike Green", experience_years=2)  # Example 2nd 2nd Assistant Director
-    # gaffer = Gaffer(name="Mark Lee")  # Example gaffer
-    # crew = ["Cinematographer", "Sound Designer", "Production Assistant"]
-    # actors = [
-    #     Actor(name="Audrey Hepburn", role="Holly Golightly", experience_years=20),
-    #     Actor(name="George Peppard", role="Paul Varjak", experience_years=15)
-    # ]
-    # cinematographer = Cinematographer(name="Charles Lang", style="Classic")
-    # editor = Editor(name="Samuel E. Beetley", software_proficient="Film Editing")
+    storyboarder = Storyboarder(name="John Doe")  # Example storyboarder
+    first_ad = FirstAssistantDirector(
+        name="Tom Brown", experience_years=5
+    )  # Example 1st Assistant Director
+    second_ad = SecondAssistantDirector(
+        name="Lisa White", experience_years=3
+    )  # Example 2nd Assistant Director
+    second_second_ad = SecondSecondAssistantDirector(
+        name="Mike Green", experience_years=2
+    )  # Example 2nd 2nd Assistant Director
+    gaffer = Gaffer(name="Mark Lee")  # Example gaffer
+    crew = ["Cinematographer", "Sound Designer", "Production Assistant"]
+    actors = [
+        Actor(name="Audrey Hepburn", role="Holly Golightly", experience_years=20),
+        Actor(name="George Peppard", role="Paul Varjak", experience_years=15),
+    ]
+    cinematographer = Cinematographer(name="Charles Lang", style="Classic")
+    editor = Editor(name="Samuel E. Beetley", software_proficient="Film Editing")
 
     # Create location instances
     # locations = [

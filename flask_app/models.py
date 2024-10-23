@@ -31,7 +31,7 @@ class Actor(db.Model):
 class Producer(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
-    experience_years = db.Column(db.Integer, nullable=False)
+    projects_managed = db.Column(db.Integer, nullable=False)
     funding_secured = db.Column(db.Float, nullable=False)  # Amount of funding secured
     project_guidelines = db.Column(
         db.Text, nullable=True
@@ -61,11 +61,13 @@ class FirstAssistantDirector(db.Model):
 class SecondAssistantDirector(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
+    experience_years = db.Column(db.Integer, nullable=False)
 
 
 class SecondSecondAssistantDirector(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
+    experience_years = db.Column(db.Integer, nullable=False)
 
 
 class SetPersonalAssistant(db.Model):
