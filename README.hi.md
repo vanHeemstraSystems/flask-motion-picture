@@ -2,7 +2,7 @@
 
 # भंडार का नाम
 
-"एबीसी" पर आधारित<https://www.abc.com/>
+Based on "ABC" at <https://www.abc.com/>
 
 ## 100 - परिचय
 
@@ -18,4 +18,4 @@
 
 ## 400 - निष्कर्ष
 
-देखना[README.md](./400/README.md)
+See [README.md](./400/README.md)
