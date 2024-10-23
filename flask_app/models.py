@@ -136,7 +136,16 @@ class ArtDepartment(db.Model):  # New model for Art Department
     )  # Foreign Key to ProductionDesigner
     art_directors_id = db.Column(
         db.Integer, db.ForeignKey("art_director.id"), nullable=False
-    )  # Foreign Key to ArtDiretor
+    )  # Foreign Key to ArtDirector
+    set_dressers_id = db.Column(
+        db.Integer, db.ForeignKey("set_dresser.id"), nullable=False
+    )  # Foreign Key to SetDresser
+    prop_masters_id = db.Column(
+        db.Integer, db.ForeignKey("prop_master.id"), nullable=False
+    )  # Foreign Key to PropMaster
+    art_personal_assistants_id = db.Column(
+        db.Integer, db.ForeignKey("art_personal_assistant.id"), nullable=False
+    )  # Foreign Key to ArtPersonalAssistant
     production_designers = db.relationship(
         "ProductionDesigner", backref="art_department"
     )  # One-to-many relationship with ProductionDesigner
