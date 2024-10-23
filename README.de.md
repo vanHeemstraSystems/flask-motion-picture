@@ -2,7 +2,7 @@ Repository-Name
 
 # Repository-Name
 
-Basierend auf „ABC“ unter<https://www.abc.com/>
+Based on "ABC" at <https://www.abc.com/>
 
 ## 100 - Einführung
 
