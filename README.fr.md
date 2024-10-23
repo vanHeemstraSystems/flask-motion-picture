@@ -1,18 +1,18 @@
 nom du référentiel
 
-# Repository Name
+# Nom du référentiel
 
-Basé sur "ABC" à<https://www.abc.com/>
+Based on "ABC" at <https://www.abc.com/>
 
 ## 100 - Introduction
 
 Voir[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - Exigences
 
 Voir[README.md](./200/README.md)
 
-## 300 - Building Our Application
+## 300 - Construire notre application
 
 Voir[README.md](./300/README.md)
 
