@@ -1,6 +1,6 @@
 儲存庫名稱
 
-# 儲存庫名稱
+# Repository Name
 
 基於“ABC”<https://www.abc.com/>
 
@@ -18,4 +18,4 @@
 
 ## 400 - 結論
 
-看[README.md](./400/README.md)
+See [README.md](./400/README.md)
