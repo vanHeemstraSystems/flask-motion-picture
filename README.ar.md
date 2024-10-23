@@ -1,18 +1,18 @@
-repository-name
+اسم المستودع
 
 # اسم المستودع
 
-> A Python Flask application of a Motion Picture production
+> تطبيق Python Flask لإنتاج الصور المتحركة
 
 ## 100- مقدمة
 
-See [README.md](./100/README.md)
+يرى[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - المتطلبات
 
-See [README.md](./200/README.md)
+يرى[README.md](./200/README.md)
 
-## 300 – بناء تطبيقنا
+## 300 - Building Our Application
 
 يرى[README.md](./300/README.md)
 
