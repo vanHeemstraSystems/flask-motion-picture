@@ -21,6 +21,13 @@ class Director(db.Model):
     awards_won = db.Column(db.Integer, nullable=True)
 
 
+class Actor(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    role = db.Column(db.String(100), nullable=False)
+    experience_years = db.Column(db.Integer, nullable=False)
+
+
 class Producer(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
