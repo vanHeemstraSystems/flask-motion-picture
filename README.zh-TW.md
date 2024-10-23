@@ -2,7 +2,7 @@
 
 # 儲存庫名稱
 
-基於“ABC”<https://www.abc.com/>
+> 電影製作的 Python Flask 應用程式
 
 ## 100 - 簡介
 
