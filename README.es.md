@@ -1,12 +1,12 @@
-nombre-repositorio
+repository-name
 
 # Nombre del repositorio
 
 Basado en "ABC" en<https://www.abc.com/>
 
-## 100 - Introduction
+## 100 - Introducción
 
-Ver[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - Requisitos
 

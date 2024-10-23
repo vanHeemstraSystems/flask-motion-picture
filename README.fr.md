@@ -1,6 +1,6 @@
 nom du référentiel
 
-# Nom du référentiel
+# Repository Name
 
 Basé sur "ABC" à<https://www.abc.com/>
 
