@@ -4,7 +4,7 @@
 
 基於“ABC”<https://www.abc.com/>
 
-## 100 - Introduction
+## 100 - 簡介
 
 看[README.md](./100/README.md)
 
