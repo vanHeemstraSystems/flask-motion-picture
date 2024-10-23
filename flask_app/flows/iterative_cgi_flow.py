@@ -5,9 +5,9 @@ from models import Animator, CGIAnimationBranch, CGIPullRequest
 @task
 def test(animator: Animator, branch_name: str):
     print("Iterative CGI: Test.")
-    return CGIAnimationBranch(
-        branch_name=branch_name, content="Test", animator_id=animator.id
-    )
+    # return CGIAnimationBranch(
+    #     branch_name=branch_name, content="Test", animator_id=animator.id
+    # )
 
 # @task
 # def create_cgi_branch(animator: Animator, branch_name: str):
