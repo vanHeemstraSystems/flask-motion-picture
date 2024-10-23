@@ -2,9 +2,9 @@
 
 # 存储库名称
 
-基于“ABC”<https://www.abc.com/>
+Based on "ABC" at <https://www.abc.com/>
 
-## 100 - Introduction
+## 100 - 简介
 
 看[README.md](./100/README.md)
 
