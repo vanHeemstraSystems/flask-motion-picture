@@ -1,12 +1,12 @@
 nom du référentiel
 
-# Nom du référentiel
+# Repository Name
 
 > Une application Python Flask d'une production cinématographique
 
 ## 100 - Introduction
 
-Voir[README.md](./100/README.md)
+See [README.md](./100/README.md)
 
 ## 200 - Exigences
 
