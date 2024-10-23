@@ -131,9 +131,15 @@ class ArtPersonalAssistant(db.Model):  # New model for Art Personal Assistant
 class ArtDepartment(db.Model):  # New model for Art Department
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(100), nullable=False)
+    production_designers_id = db.Column(
+        db.Integer, db.ForeignKey("production_designer.id"), nullable=False
+    )  # Foreign Key to ProductionDesigner
+    art_directors_id = db.Column(
+        db.Integer, db.ForeignKey("art_director.id"), nullable=False
+    )  # Foreign Key to ArtDiretor
     production_designers = db.relationship(
         "ProductionDesigner", backref="art_department"
-    )
+    )  # One-to-many relationship with ProductionDesigner
     art_directors = db.relationship("ArtDirector", backref="art_department")
     set_dressers = db.relationship("SetDresser", backref="art_department")
     prop_masters = db.relationship("PropMaster", backref="art_department")
