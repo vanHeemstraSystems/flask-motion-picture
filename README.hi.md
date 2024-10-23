@@ -1,14 +1,14 @@
-repository-name
+भंडार-नाम
 
 # भंडार का नाम
 
 "एबीसी" पर आधारित<https://www.abc.com/>
 
-## 100 - परिचय
+## 100 - Introduction
 
 देखना[README.md](./100/README.md)
 
-## 200 - Requirements
+## 200 - आवश्यकताएँ
 
 देखना[README.md](./200/README.md)
 
