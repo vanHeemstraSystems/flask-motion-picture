@@ -2,7 +2,7 @@ nombre-repositorio
 
 # Nombre del repositorio
 
-Based on "ABC" at <https://www.abc.com/>
+Basado en "ABC" en<https://www.abc.com/>
 
 ## 100 - Introducción
 
