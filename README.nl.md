@@ -2,7 +2,7 @@ repositorynaam
 
 # Naam van opslagplaats
 
-Gebaseerd op "ABC" op<https://www.abc.com/>
+Based on "ABC" at <https://www.abc.com/>
 
 ## 100 - Inleiding
 
