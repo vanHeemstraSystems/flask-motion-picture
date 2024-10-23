@@ -4,7 +4,7 @@ repositorynaam
 
 Gebaseerd op "ABC" op<https://www.abc.com/>
 
-## 100 - Introduction
+## 100 - Inleiding
 
 Zien[README.md](./100/README.md)
 
