@@ -2,7 +2,7 @@ nombre-repositorio
 
 # Nombre del repositorio
 
-> A Python Flask application of a Motion Picture production
+> Una aplicación Python Flask de una producción cinematográfica
 
 ## 100 - Introducción
 
